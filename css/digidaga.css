@@ -90,4 +90,122 @@ button {
   background-color: #a5410f;
   color: #fff;
   padding: 20px 190px 20px 190px;
+  cursor: pointer;
+}
+
+/*-----------responsive--------------*/
+
+@media (max-width: 600px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 150px 0px 110px;
+    display: none;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .words {
+    position: absolute;
+    margin-top: -5%;
+    display: none;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+
+  .hero-content {
+    width: 100%;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'myFirstFont';
+    color: #506269;
+  }
+
+  .hero-content p {
+    font-family: 'myFirstFont2';
+    color: #848484;
+    font-size: 26px;
+    margin-top: -13px;
+  }
+
+  button {
+    border: none;
+    background-color: #a5410f;
+    color: #fff;
+    max-width: 100%;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 150px 0px 110px;
+    display: none;
+    border: 1px solid red;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .words {
+    position: absolute;
+    margin-top: -5%;
+    display: none;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+
+  .hero-content {
+    width: 100%;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'myFirstFont';
+    color: #506269;
+  }
+
+  .hero-content p {
+    font-family: 'myFirstFont2';
+    color: #848484;
+    font-size: 26px;
+    margin-top: -13px;
+  }
+
+  button {
+    border: none;
+    background-color: #a5410f;
+    color: #fff;
+    max-width: 100%;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 40px;
+  }
 }
