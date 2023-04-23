@@ -1,0 +1,19 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
