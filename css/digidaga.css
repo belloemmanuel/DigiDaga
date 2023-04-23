@@ -1,11 +1,48 @@
+@font-face {
+  font-family: 'myFirstFont';
+  src: url(/fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+  font-family: 'myFirstFont2';
+  src: url(/fonts/CircularStd-Light.otf);
+}
+
 .main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 150px 0px 110px;
+}
+
+.nav-logo {
+  font-size: 28px;
+  font-family: 'myFirstFont';
+  color: #506269;
+  margin-top: 20px;
+}
+
+span {
+  color: #a5410f;
+}
+
+.nav-list-item a {
+  font-family: 'myFirstFont2';
+  padding: 30px;
+  font-size: 26px;
+  color: #848484;
+}
+
+.nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav ul a {
+  text-decoration: none;
 }
 
 .nav-list {
@@ -15,5 +52,42 @@
 .hero-section {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 150px;
+  margin-top: 120px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.words {
+  position: absolute;
+  margin-right: -20%;
+  margin-top: -5%;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+.hero-content {
+  width: 30%;
+}
+
+.hero-content h1 {
+  font-size: 62px;
+  font-family: 'myFirstFont';
+  color: #506269;
+  line-height: 70px;
+}
+
+.hero-content p {
+  font-family: 'myFirstFont2';
+  color: #848484;
+  font-size: 26px;
+  margin-top: -13px;
+}
+
+button {
+  border: none;
+  background-color: #a5410f;
+  color: #fff;
+  padding: 20px 190px 20px 190px;
 }
