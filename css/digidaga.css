@@ -34,6 +34,13 @@ span {
   padding: 30px;
   font-size: 26px;
   color: #848484;
+  letter-spacing: -0.5px;
+}
+
+.nav-list-item a:hover {
+  color: #a5410f;
+  font-size: 26px;
+  font-family: 'myFirstFont';
 }
 
 .nav ul li {
