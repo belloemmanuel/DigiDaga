@@ -8,8 +8,8 @@
   src: url(/fonts/CircularStd-Light.otf);
 }
 
-.main-container {
-}
+/* .main-container {
+} */
 
 .nav {
   display: flex;
@@ -66,10 +66,20 @@ span {
   position: absolute;
   margin-right: -20%;
   margin-top: -5%;
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 40s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
+  /* animation-name: rotatecircle;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+  animation: rotatecircle 40s infinite linear;
+}
+
+@keyframes rotatecircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .hero-image img {
@@ -100,15 +110,6 @@ button {
   color: #fff;
   padding: 20px 190px 20px 190px;
   cursor: pointer;
-}
-
-@-webkit-keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
 }
 
 /*-----------responsive--------------*/
